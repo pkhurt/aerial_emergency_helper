@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/peter/workspace/aerial_emergency_helper/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/aerial_emergency_helper.dir/main.cpp.o -c /home/peter/workspace/aerial_emergency_helper/main.cpp",
+  "file": "/home/peter/workspace/aerial_emergency_helper/main.cpp"
+}
+]
