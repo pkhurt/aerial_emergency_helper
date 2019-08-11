@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 /*
@@ -9,12 +10,13 @@ using namespace std;
 */
 
 // Global Variables
-
+string HOME_PATH = getenv("HOME");
+string IMAGE_PATH = HOME_PATH + "/" + "Pictures" + "/" + "aerial_footage";
 
 main()
 {
     // load aerial image
-    cout << "Loading aerial images..." << endl;
+    cout << "Loading aerial images from " + IMAGE_PATH << endl;
 
     // edge extraction -> will only work with clear edges
     cout << "Extracting edges..." << endl;
